@@ -1,212 +1,493 @@
-# Jarvis
+<div align="center">
 
-[![Build Status](https://travis-ci.org/sukeesh/Jarvis.svg?branch=master)](https://travis-ci.org/sukeesh/Jarvis) [![Join the chat at https://gitter.im/Sukeesh_Jarvis/Lobby](https://badges.gitter.im/Sukeesh_Jarvis/Lobby.svg)](https://gitter.im/Sukeesh_Jarvis/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" />
 
-A Personal Non-AI Assistant for Linux, MacOS and Windows
+# 🤖 Jarvis
 
-![Jarvis](http://i.imgur.com/xZ8x9ES.jpg)
+### Asistente Personal Multiplataforma para Linux, macOS y Windows 🚀
 
-Jarvis is a simple personal assistant for Linux, MacOS and Windows which works on the command line. He can talk to you if you enable his voice. He can tell you the weather, he can find restaurants and other places near you. He can do some great stuff for you.
+<p align="center">
+  <b>Jarvis</b> es un asistente personal de línea de comandos que ayuda a los usuarios a realizar tareas cotidianas como consultar el clima, gestionar archivos, obtener información del sistema, jugar, traducir textos y mucho más.
+</p>
 
-## 🚀 15+ Different Tasks That Jarvis Can Do For You:
+<p align="center">
+  <img src="https://img.shields.io/badge/Jarvis-Personal_Assistant-blueviolet?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Python-Automation-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-Compatible-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/Open_Source-MIT-success?style=for-the-badge">
+</p>
 
-1. **Entertainment & Suggestions**
-   - Suggest activities if you're bored (`activity`, `bored`)
-   - Provide ideas on what to draw, watch, or listen to (`prompt`, `top_media`, `taste dive`, `mood music`)
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-funcionalidades">Funciones</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-plugins">Plugins</a>
+</p>
 
-2. **Sports Updates**
-   - Get up-to-date sports information: team rankings, match times, player stats (`basketball`, `cricket`, `soccer`, `tennis`)
+</div>
 
-3. **Games**
-   - Play games: Blackjack, Connect Four, Hangman, Rock-Paper-Scissors, etc. (`blackjack`, `connect_four`, `guess_number_game`, `hangman`, `rockpaperscissors`, `roulette`, `tic_tac_toe`, `word_game`, `wordle`)
+---
 
-4. **Health & Fitness**
-   - Access nutrition facts, recipes, workout programs, and health trackers (`bmi`, `bmr`, `calories`, `food recipe`, `fruit`, `fruit nutrition`, `workout`)
+# 🌌 Acerca del proyecto
 
-5. **Cocktail Recipes**
-   - Learn how to make cocktails (`cocktail`, `drink`)
+**Jarvis** es un asistente personal basado en terminal diseñado para simplificar tareas diarias mediante comandos sencillos.
 
-6. **Random Generators**
-   - Generate random lists, numbers, passwords (`random list`, `random number`, `random password`)
+Permite realizar acciones como:
 
-7. **Unit Conversions**
-   - Convert units: binary, currency, hex, length, mass, speed, temperature, time (`binary`, `currencyconv`, `hex`, `lengthconv`, `massconv`, `speedconv`, `string_convert`, `tempconv`, `timeconv`)
+* 🌤️ Consultar el clima
+* 🎮 Jugar desde la terminal
+* 📂 Gestionar archivos
+* 🖼️ Procesar imágenes
+* 📄 Convertir documentos
+* 📈 Consultar criptomonedas y acciones
+* 🌍 Traducir idiomas
+* 💻 Obtener información del sistema
+* 🤖 Automatizar tareas
 
-8. **Photography**
-   - Take pictures and screenshots (`open camera`, `screencapture`)
+---
 
-9. **System Information**
-   - Get computer specifications (`battery`, `cat his`, `dns forward`, `dns reverse`, `hostinfo`, `ip`, `scan_network`, `speedtest`, `os`, `check ram`, `systeminfo`)
+# ✨ Funcionalidades
 
-10. **File Management**
-    - Manage and organize files (`file manage`, `file organize`)
+## 🎯 Entretenimiento
 
-11. **Image Processing**
-    - Upload, edit, and convert images (`imgur`, `image to pdf`, `image compressor`)
+* Actividades para combatir el aburrimiento
+* Recomendaciones de películas
+* Recomendaciones musicales
+* Ideas para dibujar
+* Descubrimiento de contenido
 
-12. **PDF Conversion**
-    - Convert webpages to PDF or PDFs to images (`htmltopdf`, `pdf to images`)
+---
 
-13. **Jokes & Facts**
-    - Enjoy jokes and random facts (`dadjoke`, `joke daily`, `joke chuck`, `joke`, `fact`, `cat fact`)
+## ⚽ Deportes
 
-14. **Calculations**
-    - Perform calculations and solve equations (`calculate`, `factor`, `solve`, `equations`, `plot`, `matrix add`)
+* Resultados deportivos
+* Clasificaciones
+* Información de equipos
+* Estadísticas de jugadores
 
-15. **QR Code Generation**
-    - Generate QR codes for URLs (`qr`)
+---
 
-16. **Weather Updates**
-    - Check the weather forecast (`weather report`)
+## 🎮 Juegos Integrados
 
-17. **Language Translation**
-    - Translate languages (`translate`)
+* Blackjack
+* Hangman
+* Tic Tac Toe
+* Connect Four
+* Rock Paper Scissors
+* Wordle
+* Roulette
 
-18. **Stock Market Information**
-    - Display stock and cryptocurrency information (`stock`, `cryptotracker`)
+---
 
-## 🛠️ Getting Started
+## 🏋️ Salud y Fitness
 
-### Installation
+* Cálculo de IMC
+* Cálculo metabólico
+* Seguimiento de calorías
+* Rutinas de ejercicio
+* Información nutricional
 
-1. **Clone the Repository**
+---
 
-   ```bash
-   git clone https://github.com/sukeesh/Jarvis.git
-   ```
+## 🍹 Recetas
 
-2. **Run the installer**
-   ```bash
-   python installer
-   ```
-   If that doesn't work, try:
-   ```bash
-   python3 installer
-   ```
+* Cócteles
+* Bebidas
+* Recetas rápidas
+* Información nutricional
 
-### Running Jarvis
+---
 
-- Run Jarvis from anywhere:
-  
-   ```bash
-   jarvis
-   ```
+## 🎲 Generadores Aleatorios
 
-  Or from within the project folder:
-  
-   ```bash
-   ./jarvis
-   ```
+* Contraseñas seguras
+* Números aleatorios
+* Listas aleatorias
 
-You can start by typing `help` within the Jarvis command line to check what Jarvis can do for you.
+---
 
-## ❓Frequently encountered issues
-**Question**: 
-When I run Jarvis, it shows an error relating to module not found<br>
+## 📏 Conversión de Unidades
 
-**Platform**: 
-Windows<br>
+* Temperatura
+* Longitud
+* Masa
+* Tiempo
+* Velocidad
+* Monedas
+* Binario y hexadecimal
 
-**Solution 1**: Uninstall and/or install the module package.<br>
+---
 
-**Example:**<br>
-Error: `ImportError: DLL load failed while importing win32api: The specified module could not be found.`<br>
+## 📸 Multimedia
 
-**Solution:**<br>
-`pip uninstall pywin32`<br>
-`pip install pywin32` or `conda install pywin32`<br>
+* Captura de pantalla
+* Uso de cámara
+* Conversión de imágenes
+* Compresión de imágenes
 
-**Solution 2**: add the package to your environment variables system PATH.<br>
+---
 
------
+## 📄 Herramientas PDF
 
-**Question**: After cloning the repo in terminal it gives an error when running python3 installer saying please install virtual environemnt.
+* Imagen a PDF
+* PDF a imágenes
+* Página web a PDF
 
-**Solution**: 
-- Install virtual env using this command:
-  ```bash
-  python3 -m pip install virtualenv
-  ```
-- OR: On Linux use package manager (e.g. Ubuntu sudo apt install python3-venv)
-  
-- Restart Installer
+---
 
------
+## 😂 Humor y Curiosidades
 
-**If you find other issues and/or have found solutions to them on any platform, please consider adding to this list!**
+* Chistes diarios
+* Datos curiosos
+* Cat Facts
+* Dad Jokes
 
-## 💻 Youtube Video Showing Jarvis
+---
 
-[Click here](https://www.youtube.com/watch?v=PR-nxqmG3V8)
+## 🧮 Matemáticas
 
-## 🤝 Contributing
+* Calculadora
+* Resolución de ecuaciones
+* Álgebra
+* Matrices
+* Factorización
 
-Check out our [CONTRIBUTING.md](CONTRIBUTING.md) to learn how you can contribute!
+---
 
-### QuickStart: Create a new feature (plugin)
+## 🌍 Traducción
 
-Create new file custom/hello_world.py
+* Traducción entre idiomas
+* Conversión de texto
 
+---
+
+## ☀️ Clima
+
+* Pronósticos meteorológicos
+* Estado actual del clima
+* Información local
+
+---
+
+## 📈 Finanzas
+
+* Seguimiento de acciones
+* Información de criptomonedas
+* Mercado financiero
+
+---
+
+# 👨‍💻 Arquitectura
+
+## 🖥️ Núcleo del asistente
+
+Sistema basado en plugins que permite extender fácilmente sus funcionalidades.
+
+### Características
+
+* Modular
+* Extensible
+* Multiplataforma
+* Ligero
+
+---
+
+## 🔌 Sistema de Plugins
+
+Permite agregar nuevos comandos fácilmente.
+
+### Funcionalidades
+
+* Plugins personalizados
+* Comandos dinámicos
+* Integración sencilla
+* Desarrollo modular
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## ⚙️ Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python" />
+</p>
+
+* Python
+* CLI Applications
+* Automatización
+* APIs externas
+
+---
+
+## 🖥️ Sistemas Operativos
+
+<p>
+  <img src="https://skillicons.dev/icons?i=linux,apple,windows" />
+</p>
+
+* Linux
+* macOS
+* Windows
+
+---
+
+## 🧰 Herramientas
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,docker" />
+</p>
+
+* Git
+* GitHub
+* VS Code
+* Docker
+
+---
+
+# 📂 Estructura del proyecto
+
+```bash
+Jarvis/
+│
+├── custom/
+├── plugins/
+├── doc/
+├── tests/
+├── installer
+├── jarvis
+├── requirements.txt
+├── test.sh
+└── README.md
 ```
-from plugin import plugin
 
+---
+
+# ⚡ Instalación
+
+## 📋 Requisitos
+
+* Python 3+
+* Git
+* Pip
+
+---
+
+## 1️⃣ Clonar repositorio
+
+```bash
+git clone https://github.com/sukeesh/Jarvis.git
+```
+
+---
+
+## 2️⃣ Entrar al proyecto
+
+```bash
+cd Jarvis
+```
+
+---
+
+## 3️⃣ Ejecutar instalador
+
+```bash
+python installer
+```
+
+o
+
+```bash
+python3 installer
+```
+
+---
+
+# 🚀 Ejecutar Jarvis
+
+Desde cualquier ubicación:
+
+```bash
+jarvis
+```
+
+o dentro del proyecto:
+
+```bash
+./jarvis
+```
+
+---
+
+# 🔌 Plugins
+
+Jarvis permite crear nuevas funcionalidades mediante plugins.
+
+## Ejemplo
+
+Crear:
+
+```bash
+custom/hello_world.py
+```
+
+Código:
+
+```python
+from plugin import plugin
 
 @plugin("helloworld")
 def helloworld(jarvis, s):
-    """Repeats what you type"""
     jarvis.say(s)
 ```
 
-Check it out!
-```
-./jarvis
-Jarvis' sound is by default disabled.
-In order to let Jarvis talk out loud type: enable sound
-Type 'help' for a list of available actions.
+Uso:
 
-~> Hi, what can I do for you?
-helloworld Jarvis is cool!
-jarvis is cool
+```bash
+helloworld Hola Jarvis
 ```
 
-### Plugins
+Resultado:
 
-[Click here](doc/PLUGINS.md) to learn more about plugins.
-
-### Creating a test
-
-Creating a test is optional but never a bad idea ;).
-
-[Click here](doc/TESTING.md) to learn more about testing.
-
-### How to run tests:
-
- Run `test.sh`
- ```bash
- ./test.sh
- ```
-## Optional Dependencies
-
-- Any pyttsx3 text-to-speech engine (``sapi5, nsss or espeak``) for Jarvis to talk out loud (e.g. Ubuntu do ``sudo apt install espeak``)
-- Portaudio + python-devel packages for voice control
-- ``notify-send`` on Linux if you want to receive *nice* and desktop-notification instead of *ugly* pop up windows (e.g. Ubuntu do ``sudo apt install libnotify-bin``)
-- ``ffmpeg`` if you want ``music`` to download songs as .mp3 instead of .webm
-
-## Docker
-
-Run with docker (docker needs to be installed and running):
-
-```
-[sudo] make build_docker
-[sudo] make run_docker
+```bash
+Hola Jarvis
 ```
 
-## Authors
+---
 
- **sukeesh**
+# 🧪 Testing
 
-See also the list of [contributors](https://github.com/sukeesh/Jarvis/graphs/contributors) who have participated in this project.
+Ejecutar pruebas:
 
-## License
+```bash
+./test.sh
+```
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+
+# 🐳 Docker
+
+Construir imagen:
+
+```bash
+make build_docker
+```
+
+Ejecutar contenedor:
+
+```bash
+make run_docker
+```
+
+---
+
+# 📊 Funcionalidades destacadas
+
+## 💻 Información del sistema
+
+* RAM
+* Sistema operativo
+* Dirección IP
+* DNS
+* Batería
+* Velocidad de red
+
+---
+
+## 📂 Gestión de archivos
+
+* Organización automática
+* Gestión de carpetas
+* Clasificación de documentos
+
+---
+
+## 📸 Procesamiento multimedia
+
+* Conversión de imágenes
+* Capturas de pantalla
+* Manipulación básica
+
+---
+
+## 🌐 Utilidades web
+
+* Consulta de clima
+* Información financiera
+* Traducción
+* Búsquedas rápidas
+
+---
+
+# 🚧 Roadmap
+
+## 🔮 Próximas mejoras
+
+* Más plugins
+* Mejor integración por voz
+* Automatización avanzada
+* Compatibilidad con IA moderna
+* Mejoras de rendimiento
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Cómo contribuir
+
+1. Fork del proyecto
+
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
+
+2. Commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
+
+3. Push
+
+```bash
+git push origin feature/nueva-funcionalidad
+```
+
+4. Pull Request 🚀
+
+---
+
+# 👨‍💻 Autor
+
+<div align="center">
+
+## Sukeesh
+
+Desarrollador y mantenedor del proyecto Jarvis.
+
+</div>
+
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella
+🍴 Haz fork
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto distribuido bajo licencia MIT.
+
+---
+
+<div align="center">
+
+### 🤖 Jarvis — tu asistente personal multiplataforma desde la terminal 🚀
+
+</div>
