@@ -249,7 +249,7 @@ Permite agregar nuevos comandos fácilmente.
 # 📂 Estructura del proyecto
 
 ```bash
-Jarvis/
+AsistentePersonalJARVIS/
 │
 ├── custom/
 ├── plugins/
@@ -277,7 +277,7 @@ Jarvis/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/sukeesh/Jarvis.git
+git clone https://github.com/isairey/AsistentePersonalJARVIS.git
 ```
 
 ---
@@ -285,7 +285,7 @@ git clone https://github.com/sukeesh/Jarvis.git
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd Jarvis
+cd AsistentePersonalJARVIS
 ```
 
 ---
@@ -460,11 +460,11 @@ git push origin feature/nueva-funcionalidad
 
 ---
 
-# 👨‍💻 Autor
+# 👨‍💻 Desarrollador
 
 <div align="center">
 
-## Sukeesh
+## Isai Reyes - FullStack Developer
 
 Desarrollador y mantenedor del proyecto Jarvis.
 
