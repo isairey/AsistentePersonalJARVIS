@@ -29,6 +29,10 @@
 
 ---
 
+![Jarvis](http://i.imgur.com/xZ8x9ES.jpg)
+
+---
+
 # 🌌 Acerca del proyecto
 
 **Jarvis** es un asistente personal basado en terminal diseñado para simplificar tareas diarias mediante comandos sencillos.
